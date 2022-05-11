@@ -10,12 +10,24 @@
 
 :root {
   --header-height: 75px;
-  --footer-height: 50px;
-
-  --dark: #282a36;
+  --dark: #44475a;
   --medium: #44475a;
   --light: #44475a;
   --contrast-text: #f8f8f2;
   --accent-1: #ff5555;
   --accent-2: #50fa7b;
+  --footer-height: 50px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --header-height: 75px;
+    --dark: #44475a;
+    --medium: #44475a;
+    --light: #44475a;
+    --contrast-text: #f8f8f2;
+    --accent-1: #ffff;
+    --accent-2: #50fa7b;
+    --footer-height: 50px;
+  }
 }

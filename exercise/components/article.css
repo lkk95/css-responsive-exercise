@@ -22,6 +22,26 @@
   width: 24px;
   height: 24px;
   position: absolute;
-  top: 15px;
+  top: auto;
   right: 15px;
+}
+
+@media (min-width: 600px) {
+  .article {
+    width: 40%;
+  }
+  .article-svg {
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .article {
+    width: 20%;
+  }
+  .article-svg {
+    bottom: 15px;
+    right: 15px;
+  }
 }
